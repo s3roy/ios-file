@@ -59,6 +59,7 @@ export default function Home() {
   return (
     <Container maxW="container.md" py={8}>
       <Box bg="gray.700" p={8} borderRadius="md">
+        <b>Currently Server Down</b>
         <form onSubmit={handleSubmit}>
           <VStack spacing={4}>
             <FormControl>
